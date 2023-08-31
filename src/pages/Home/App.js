@@ -1,11 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import data from '../../data/data.json'
 
 function App() {
+
+  // pour tester l'import de données, à supprimer
+  const firstTitle = data[0].title;
+  console.log(firstTitle);
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
