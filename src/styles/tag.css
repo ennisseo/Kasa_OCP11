@@ -1,0 +1,20 @@
+.tags-container {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.tag {
+    background-color: var(--primary-color);
+    padding: .3rem 1.5rem;
+    border-radius: 10px;
+    font-size: 14px;
+    color: white;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+    .tag {
+        font-size: 10px;
+    }
+}

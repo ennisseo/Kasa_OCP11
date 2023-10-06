@@ -1,0 +1,31 @@
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem 0 0.5rem 0;
+    gap: 0.5rem;
+}
+
+footer div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-logo {
+    max-width: 100px;
+    filter: brightness(0) invert(1);
+    height: 40px;
+}
+
+footer p {
+    font-size: 24px;
+}
+
+@media screen and (max-width: 768px) {
+    footer p {
+        font-size: 12px;
+    }
+}
